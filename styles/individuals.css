@@ -1,5 +1,27 @@
 .header{
-    height:600px;
+    height:500px;
     width:1920px;
     background-color:purple;
+}
+
+.main{
+    padding-top:80px;
+    padding-left:120px;
+    padding-right:120px;
+}
+
+.main > .topintro > .headertxt{
+    width: 470px;
+    border-bottom: solid 2px black;
+
+
+}
+.main > .topintro > .maintxt{
+    padding-top:80px;
+    line-height: 1.6em;;
+
+}
+
+.main >.topintro>.second-header{
+    
 }
