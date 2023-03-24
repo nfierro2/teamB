@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/donate-block.css">
     <title>Homepage</title>
 </head>
 <body>
     <div class="header" style="background-image: url(images/law-and-justice-in-united-states-of-america.jpg)">
         <div class="overlay">
             <div class="nav-bar">
-                <img src="images/legal-services-logo.png" alt="" class="logo">
+                <img src="images/legal-services-logo.png" alt="" id="logo">
                 <div class="links">
                     <a href="pages/individuals.html">Individuals</a>
                     <a href="pages/nonprofits.html">Nonprofits</a>
@@ -32,12 +33,12 @@
     <div class="announcement">
         <h3>We Have Moved! Our new address is: 623 East 2100 South, Suite B1 Salt Lake City, Utah 84106</h3>
     </div>
-    <div class="bar-right">
-        <div class="icon-container"><img src="" alt="Individuals Icon"></div>
+    <div class="bar-right" style="margin-top: 10px;">
+        <div class="icon-container"><img src="images/user-solid.png" alt="Individuals Icon"></div>
         <div class="bar" style="background-image: url(images/header-Mallet-pic.jpg);">
             <div class="overlay">
                 <h1 class="text">Legal help for individuals</h1>
-                <a class="arrow" href="">&#10095;</a>
+                <a class="arrow" href="pages/individuals.html">&#10095;</a>
             </div>
         </div>
     </div>
@@ -45,19 +46,26 @@
         <div class="bar" style="background-image: url(images/header-lawyer-desk.jpg)">
             <div class="overlay">
                 <h1 class="text">Legal help for nonprofits</h1>
-                <a class="arrow" href="">&#10095;</a>
+                <a class="arrow" href="pages/nonprofits.html">&#10095;</a>
             </div>
         </div>
-        <div class="icon-container"><img src="" alt="Nonprofit Icon"></div>
+        <div class="icon-container"><img src="images/people-group-solid.png" alt="Nonprofit Icon"></div>
     </div>
     <div class="bar-right">
-        <div class="icon-container"><img src="images/" alt="Contact Icon"></div>
+        <div class="icon-container"><img src="images/comment-solid.png" alt="Contact Icon"></div>
         <div class="bar" style="background-image: url(images/judges-wooden-gavel-and-law-book.jpg);">
             <div class="overlay">
                 <h1 class="text">Get in contact with us</h1>
-                <a class="arrow" href="">&#10095;</a>
+                <a class="arrow" href="pages/contact.html">&#10095;</a>
             </div>
         </div>
     </div>
+    <div class="donate-block-wrapper">
+        <div class="donate-block">
+            <h1>Wanna help us out?</h1>
+            <a href="#" onClick="return false">Donate Now</a>
+        </div>
+    </div>
+    
 </body>
 </html>
