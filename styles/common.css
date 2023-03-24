@@ -4,6 +4,8 @@ body{
     background-color: #fdfff5;
 }
 
+/* header */
+
 .header{
     height: 500px;
     width: 100%;
@@ -101,6 +103,28 @@ body{
     padding: 0;
     padding: 10px 70px;
     background-color: #015737;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.footer *{
+    color: #015737;
+}
+
+.footer p{
+    margin: 2px 0;
+}
+
+.footer a{
+    margin: 20px 0;
 }
 
 
