@@ -17,7 +17,8 @@
 
 .main > .topintro > .headertxt{
     width: 300px;
-    border-bottom: solid 2px black;
+    color:#015737;
+    border-bottom: solid 2px #015737;
     padding-left:10px;
 
 
@@ -29,7 +30,10 @@
     grid-column:1;
 }
 .main > .topintro > .image{
-    background-image:blue;
+    background-image:url(../images/lady-justice-resized.jpg);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: inset 0px -20px 40px black;
     grid-column:2;
     width:500px;
     height:600px;
@@ -37,14 +41,30 @@
 
 .main >.topintro>.second-header{
     width: 470px;
-    border-bottom: solid 2px black;
+    color:#015737;
+    border-bottom: solid 2px #015737;
     height:80px;
     padding-left:10px;
-    margin-top:-170px;
+    margin-top:-200px;
     grid-column:1;
+    
 }
-.main > .topintro> .second{
-    padding-top:65;    
+.main > .topintro> .second{  
+    margin-top:15px; 
     line-height: 1.6em;
     grid-column:1;
+}
+.bottom{
+    padding-top:100px;
+    padding-left:170px;
+    padding-right:170px;
+}
+
+.bottom >.bottom-header{
+    padding-left:10px;
+    color:#015737;
+}
+.bottom>.bottom-main{
+    line-height: 1.6em;
+    padding-bottom:50px;
 }
