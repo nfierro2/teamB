@@ -1,11 +1,8 @@
-.header{
-    height:500px;
-    width:1920px;
-    background-color:purple;
+.main{
+    padding-left:170px;
+    background-color:blue;
 }
 
-.main{
-    padding-top:80px;
-    padding-left:170px;
-    padding-right:170px;
+.main>.main-top{
+    background-color:purple;
 }
