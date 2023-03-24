@@ -6,22 +6,45 @@
 
 .main{
     padding-top:80px;
-    padding-left:120px;
-    padding-right:120px;
+    padding-left:170px;
+    padding-right:170px;
+}
+.main> .topintro{
+    display:grid;
+    grid-template-columns:2fr;
+    column-gap:20px;
 }
 
 .main > .topintro > .headertxt{
-    width: 470px;
+    width: 300px;
     border-bottom: solid 2px black;
+    padding-left:10px;
 
 
 }
 .main > .topintro > .maintxt{
-    padding-top:80px;
-    line-height: 1.6em;;
-
+    padding-top:65px;
+    line-height: 1.6em;
+    width: 600px;
+    grid-column:1;
+}
+.main > .topintro > .image{
+    background-image:blue;
+    grid-column:2;
+    width:500px;
+    height:600px;
 }
 
 .main >.topintro>.second-header{
-    
+    width: 470px;
+    border-bottom: solid 2px black;
+    height:80px;
+    padding-left:10px;
+    margin-top:-170px;
+    grid-column:1;
+}
+.main > .topintro> .second{
+    padding-top:65;    
+    line-height: 1.6em;
+    grid-column:1;
 }
