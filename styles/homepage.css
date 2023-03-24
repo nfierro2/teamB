@@ -23,6 +23,11 @@
     height: 275px;
     background-size: cover;
     background-position: center;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    box-shadow: inset 0px 0px 30px 10px rgba(255,255,255,1)
 }
 
 .bar .overlay{
@@ -30,12 +35,20 @@
     height: 100%;
     display: flex;
     align-items: center;
-    background-color: rgb(0, 0, 0, 0.30);
+    background-color: rgb(0, 0, 0, 0.40);
     color: white;
+}
+
+.bar-left .bar .overlay{
+    justify-content: flex-end;
 }
 
 .bar .overlay .text{
     font-size: 3vw;
+}
+
+.bar-right .bar .overlay .text, .bar-left .bar .overlay .arrow{
+    margin: 0px 20px;
 }
 
 .bar .overlay .arrow{
@@ -52,6 +65,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
+}
+
+.bar .overlay:hover .arrow{
+    transition: 0s;
+    visibility: visible;
+}
+
+.bar .overlay .arrow:hover{
+    box-shadow: inset 0px 0px 50px 10px rgba(255,255,255,0.5);
 }
 
 .bar-left .icon-container, .bar-right .icon-container{
@@ -69,6 +92,7 @@
 .bar-right > .bar{
     right: 0;
 }
+
 
 
 
