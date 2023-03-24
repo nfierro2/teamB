@@ -49,7 +49,7 @@
     
 }
 .main > .topintro> .second{  
-    margin-top:15px; 
+    margin-top:-25px; 
     line-height: 1.6em;
     grid-column:1;
 }
@@ -60,10 +60,14 @@
 }
 
 .bottom >.bottom-header{
-    padding-left:10px;
+    padding-left:0px;
     color:#015737;
+    padding-bottom:0px;
+    border-bottom: solid 2px #015737;
+    width:400px;
 }
 .bottom>.bottom-main{
+    padding-top:30px;
     line-height: 1.6em;
-    padding-bottom:50px;
+    padding-bottom:150px;
 }
