@@ -11,3 +11,64 @@
     padding-bottom: 20px;
 }
 
+.bar-left, .bar-right{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.bar{
+    width: 65%;
+    height: 275px;
+    background-size: cover;
+    background-position: center;
+}
+
+.bar .overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.30);
+    color: white;
+}
+
+.bar .overlay .text{
+    font-size: 3vw;
+}
+
+.bar .overlay .arrow{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 100%;
+    background-color:rgb(0, 0, 0, 0.60);
+    height: 2vw;
+    width: 2vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-left .icon-container, .bar-right .icon-container{
+    width: 35%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-left > .bar{
+    left: 0;
+}
+
+.bar-right > .bar{
+    right: 0;
+}
+
+
+
