@@ -10,6 +10,8 @@
 }
 .main >.top>.nonprofits{
     color:#015737;
+    width:200px;
+    border-bottom: solid 2px #015737;
 }
 .main >.top>.maintxt{
     padding-top:65px;
@@ -28,10 +30,12 @@
 }
 .main >.top >.heading{
     color:#015737;
+    border-bottom: solid 2px #015737;
+    width:400px;
 }
 .main >.top >.second{
     padding-top:15px;
-    padding-bottom:90px;
+    padding-bottom:150px;
     line-height: 1.6em;
     width: 600px;
     grid-column:1;

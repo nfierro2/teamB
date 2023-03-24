@@ -49,7 +49,7 @@
     
 }
 .main > .topintro> .second{  
-    margin-top:15px; 
+    margin-top:-25px; 
     line-height: 1.6em;
     grid-column:1;
 }
@@ -65,5 +65,5 @@
 }
 .bottom>.bottom-main{
     line-height: 1.6em;
-    padding-bottom:50px;
+    padding-bottom:150px;
 }
